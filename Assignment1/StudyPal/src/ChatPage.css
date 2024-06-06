@@ -1,0 +1,136 @@
+.div-chat-page {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    background-color: white;
+}
+
+.div-chat-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #0097B2;
+}
+
+.div-chat-box-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: #005d6d;
+}
+
+.div-new-chat {
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.div-new-chat:hover {
+    background-color: #FF6100;
+}
+
+.div-chat-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    background-color: #0097B2;
+}
+
+.div-chat-list-item:hover {
+    background-color: #FF6100;
+}
+
+.div-chat-box-label {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: #0097B2;
+    align-items: center;
+    flex: 1;
+}
+
+.chat-input {
+    width: 80%;
+    height: 35px;
+    border: 0;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.div-chat-box {
+    width: 100%;
+}
+
+.chat-send {
+    border: 0;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 18%;
+    margin: 10px 10px 10px 0;
+    padding: 0;
+}
+
+.chat-input-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-chat-chats {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-chat-text-send, .div-chat-text-receive {
+    display: flex;
+    border-radius: 2px;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.div-chat-text-send {
+    align-items: end;
+}
+
+.div-chat-text-receive {
+    align-items: start;
+}
+
+.chat-text-send, .chat-text-receive {
+    padding: 10px 15px;
+    margin: 0;
+    align-items: center;
+}
+
+.chat-text-send {
+    background-color: #FF6100;
+}
+
+.chat-text-receive {
+    background-color: #FFFFFF;
+}
+
+.chat-user-send, .chat-user-receive {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    color: white;
+}
+
+.div-no-chat {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 748px;
+    width: 70%;
+    background-color: #0097B2;
+}

@@ -1,0 +1,132 @@
+.div-home-main {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.header-home {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: left;
+    margin: 0;
+    padding-left: 20px;
+
+    background-color: #FFFFFF;
+}
+
+.study-pal-logo {
+    height: 120px;
+}
+
+.div-home-content {
+    padding: 10px 0;
+}
+
+.main-home {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+}
+
+.div-home-main-dashboard {
+    display: flex;
+    flex-direction: column;
+    background-color: FF6100;
+    width: 10vw;
+    padding: 10px;
+    background-color: #0097B2;
+}
+
+.div-home-main-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70vw;
+
+}
+
+.div-home-main-tasks {
+    display: flex;
+    flex-direction: column;
+    background-color: #0097B2;
+    width: 20vw;
+    padding: 10px;
+    align-items: center;
+}
+
+.div-post {
+    display: flex;
+    flex-direction: column;
+    background-color: #0097B2;
+    padding: 10px;
+}
+
+.div-post-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.post-profile-picture {
+    height: 50px;
+}
+
+.div-dashboard {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.div-dashboard-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    align-items: center;
+}
+
+.dashboard-item {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.dashboard-item:hover {
+    background-color: #FF6100;
+    font-weight:600 ;
+}
+
+.div-tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 90%;
+    margin: 0 40px;
+}
+
+.div-task {
+    padding: 10px;
+    background-color: #0097B2;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+}
+
+
+.div-task:hover {
+    background-color: #FF6100;
+}
+
+.div-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: end;
+    width: 100%;
+    margin-right: 30px;
+}
